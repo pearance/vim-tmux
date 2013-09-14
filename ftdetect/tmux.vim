@@ -3,5 +3,5 @@ if exists("did_load_filetypes")
 endif
 
 augroup filetypedetect
-	au BufNewFile,BufRead .tmux.conf*,tmux.conf* setf tmux
+	au BufNewFile,BufRead .tmux.conf*,tmux.conf* set ft=tmux
 augroup END
